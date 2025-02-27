@@ -1,4 +1,4 @@
-import Grid from "@/components/Grid";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
 import Projects from "@/components/Projects";
@@ -8,14 +8,14 @@ import { navItems } from "@/data";
 
 const page = () => {
   return (
-    <main className='relative bg-black-100 flex text-white justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5'>
+    <main className='relative bg-black-100 flex text-white justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip'>
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
-        <Grid/>
+        <Journey/>
         <Projects/>
         <TechStack />
-        <Journey />
+        <Footer/>
       </div>
     </main>
   );
