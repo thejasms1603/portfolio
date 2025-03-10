@@ -9,6 +9,14 @@ export const navItems = [
 export const projects = [
   {
     id: 1,
+    title: "Gitflow AI",
+    des: "an AI-powered GitHub SaaS, automating 80% of commit summarization, PR analysis, and meeting documentation using Gemini AI, LangChain, and Assembly AI",
+    img: "/gitflowAI.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/firebase.svg","/github.svg"],
+    link: "https://gitflow-ai.vercel.app/",
+  },
+  {
+    id: 2,
     title: "DocSprint - Collaborative Document Editor",
     des: "A real-time collaborative document editing tool built using Next.js, Tailwind CSS and liveblocks.",
     img: "/docsprint.png",
@@ -16,7 +24,7 @@ export const projects = [
     link: "https://tms-doc-sprint.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Medium Clone - Blogging Application",
     des: "A full-stack blogging platform inspired by Medium, built with HonoJS, Cloudflare, and PostgreSQL.",
     img: "/medium.png",
@@ -31,20 +39,12 @@ export const projects = [
     link: "https://thejasms-medium.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "ZapPay - A Payment Application",
     des: "A modern SaaS payment application integrating AI features and a credit-based system.",
     img: "/zappay.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/postgres.svg", "/c.svg"],
     link: "https://github.com/thejasms1603/Zap-pay",
-  },
-  {
-    id: 4,
-    title: "AI T-Shirt Customizer",
-    des: "A 3D interactive T-shirt customizer using OpenAI API, Three.js, and Framer Motion.",
-    img: "/tshirt.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/fm.svg"],
-    link: "https://thejasms-tshirtcustomizer.netlify.app/",
   },
 ];
 
